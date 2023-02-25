@@ -1,0 +1,10 @@
+.carousel-item{
+    height:600px;
+}
+img{
+    object-fit: fill;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}

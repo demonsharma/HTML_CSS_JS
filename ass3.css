@@ -1,0 +1,136 @@
+body{
+    padding: 100px 500px;
+}
+.main{
+    width: 500px;
+    height: 600px;
+    box-shadow: 0 0 3px 1px #ccc;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    width:500px ;
+    padding-bottom: 30px;
+}
+.container{
+    
+    
+}
+.signup{
+    box-shadow: 0 0 3px 1px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.login{
+    box-shadow: 0 0 3px 1px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    font-weight: bold;
+    font-size: 25px;
+}
+input{
+    width:100% ;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.firstname{
+    width:460px ;
+    height: 50px;
+    padding-bottom: 30px;
+    display: block;
+    padding-left: 10px;
+}
+.Email{
+    width:460px ;
+    height: 50px;
+    padding-bottom: 30px;
+    display: block;
+    padding-left: 10px;
+}
+.pass{
+    width:460px ;
+    height: 50px;
+    padding-bottom: 30px;
+    display: block;
+    padding-left: 10px;
+}
+.username{
+    width:460px ;
+    height: 50px;
+    padding-bottom: 30px;
+    display: none;
+    padding-left: 10px;
+}
+.pass1{
+    width:460px ;
+    height: 50px;
+    padding-bottom: 30px;
+    display: none;
+    padding-left: 10px;
+}
+.extra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.checkb{
+    width:50px ;
+    height: 50px;
+    padding-top: 40px;
+}
+.para{
+    width:500px ;
+    height: 50px;
+    display: block;
+}
+#check{
+    padding-top: 1000px;
+    width:100% ;
+    height: 15px;
+}
+p{
+    width: 100%;
+    height: 100%;
+}
+.rbm{
+    padding-left: 0px;
+    width:500px ;
+    height: 50px;
+    display: none;
+}
+.extra1{
+    border: 1px solid black;
+    height: 50px;
+    width: 200px;
+    margin-left: 250px;
+    margin-top: 10px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: green;
+    
+}
+.extra2{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 80px;
+    margin-left: 350px;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: green;
+    display: none;
+    
+}
+

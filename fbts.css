@@ -1,0 +1,99 @@
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-nav{
+    color: white;
+}
+.head{
+    padding-top: 100px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: white;
+}
+.pic{
+    width:1500px ;
+    height:820px;
+    background-image: url(resource/pexels-pixabay-533343.jpg);
+    background-size: cover;
+    
+}
+.home{
+    
+    max-height: 800px;
+    
+    
+}
+.info{
+    float: left;
+    padding: 8rem 2rem;
+}
+
+.tablebook{
+    border:1px solid black ;
+    width:fit-content;
+    background-color: rgb(180, 218, 12);
+    font-size: 25px;
+    padding: 1rem 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.tablebook:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.footer{
+    border-top:1px solid rgb(158, 145, 145) ;
+    background-color: rgb(212, 212, 208);
+    font-size: medium;
+    
+}
+.footer h1{
+    text-align: center;
+}
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.myicons i{
+    display: block;
+    padding: 1rem 1rem;
+}
+.myaddress{
+    width: 50%;
+}
+.right{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+@media(max-width:768px){
+    .fa-bars{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .info{
+        max-width:100%;
+    }
+    .about{
+        display: block;
+    }
+    .aboutdesc{
+        width:100% ;
+        padding:1rem 2rem ;
+    }
+    .aboutimage{
+        width: 100%;
+        padding: 0 0;
+        text-align: center;
+    }
+    .aboutdesc p{
+        padding: 0 0;
+        text-align: justify;
+        padding: 0 1rem;
+    }
+}

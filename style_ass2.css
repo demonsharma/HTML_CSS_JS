@@ -1,0 +1,47 @@
+.first{
+    width: 1050px ;
+    height: 550px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.sec{
+    width:950px ;
+    height:450px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background:linear-gradient(to bottom right ,rgb(216, 50, 78) 20%,rgb(0, 0, 197));
+}
+.third{
+    width:700px ;
+    height:300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: yellow;
+}
+.four{
+    width:550px ;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+    border-radius: 50px;
+    background-color: white;
+}
+.five{
+    font-size: 28px;
+    text-decoration: none;
+}
+.six{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}

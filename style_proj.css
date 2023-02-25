@@ -1,0 +1,142 @@
+*{
+    font-size: 20px;
+    text-decoration: none;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type:none ;
+}
+li {
+    display: inline-block ;
+    padding-right: 5rem;
+}
+li a{
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(185, 174, 158);
+    padding: 1rem 10%;
+    align-items: center;
+}
+.btn{
+    border: none;
+    padding:5px 5px;
+
+}
+.home{
+    max-height: 800px;
+    /* padding-top: 3.5rem; */
+}
+.info{
+    float: left;
+    padding: 8rem 2rem;
+}
+.pic{
+    width:1500px ;
+    height:800px;
+    background-image: url(resource/pexels-pixabay-533343.jpg);
+    background-size: cover;
+    
+}
+h2{
+    font-size: 2rem;
+    padding:2rem 0 ;
+}
+.desc{
+    padding: 2rem 0;
+}
+.tablebook{
+    border:1px solid black ;
+    width:fit-content;
+    background-color: rgb(180, 218, 12);
+    font-size: 25px;
+    padding: 1rem 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.tablebook:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+#About{
+    min-height: 400px;
+    padding: 2rem 0;
+}
+#About h2{
+    padding-left: 45rem;
+    padding-bottom: 2rem;
+    
+}
+.about{
+    display: flex;
+}
+.aboutimage{
+    
+    padding: 0 2rem;
+}
+.aboutdesc{
+    padding:0 2rem;
+}
+.footer{
+    background-color: rgb(21, 21,19);
+    color:white;
+}
+.footer h1{
+    text-align: center;
+}
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.myicons i{
+    display: block;
+    padding: 1rem 1rem;
+}
+.myaddress{
+    width: 50%;
+}
+.right{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+@media(max-width:768px){
+    .fa-bars{
+        display: block;
+    }
+    .navbar{
+        display: none;
+    }
+    .info{
+        max-width:100%;
+    }
+    .about{
+        display: block;
+    }
+    .aboutdesc{
+        width:100% ;
+        padding:1rem 2rem ;
+    }
+    .aboutimage{
+        width: 100%;
+        padding: 0 0;
+        text-align: center;
+    }
+    .aboutdesc p{
+        padding: 0 0;
+        text-align: justify;
+        padding: 0 1rem;
+    }
+}
+

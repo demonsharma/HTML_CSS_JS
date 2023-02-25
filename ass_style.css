@@ -1,0 +1,118 @@
+.one{
+    border:1px solid black ;
+    height: 800px ;
+    width:400px ;
+    margin: auto;
+}
+.two{
+    height:780px ;
+    width:380px ;
+    background-color: rgb(124, 235, 124);
+    margin:auto;
+    margin-top: 10px;
+}
+.three{
+    padding: 1px;
+    margin-left: 10px;
+    
+}
+.name{
+    height: 30px;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.Email{
+    /* margin: auto; */
+    height: 30px;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.Phone{
+    /* margin: auto; */
+    height: 30px;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+label,input{
+    display: inline-block;
+}
+label,p{
+    font-weight: 800px;
+    margin-right: 50px;
+    
+}
+input{
+    width:60%;
+    margin: auto;
+    
+}
+.pta{
+    height: 200px;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+.p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.textarea{
+    margin: auto;
+}
+textarea{
+    width:180px;
+    height:150px;
+    resize: none;
+}
+
+.Phone{
+    /* margin: auto; */
+    height: 30px;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.address{
+    /* margin: auto; */
+    height: 30px;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.postcode{
+    /* margin: auto; */
+    height: 30px;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.country{
+    /* margin: auto; */
+    height: 30px;
+    width: 320px;
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+.sub{
+    height: 30px;
+    width: 120px;
+    margin: auto;
+    border: 1px solid black;
+}
+input[type=submit]{
+    height: 30px;
+    width: 120px;
+}
